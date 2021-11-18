@@ -1,8 +1,7 @@
 package EX65;
 
-import jdk.internal.util.xml.impl.Pair;
-
 public class exercise65 {
+
     /*
      *  6.5 Using the PairOfDice class from PP 4.9, write a program that rolls a pair of dice 1000
      *  times, counting the number of box cars (two sixes) that occur.

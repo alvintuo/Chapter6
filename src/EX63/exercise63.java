@@ -11,8 +11,9 @@ public class exercise63 {
 
         for (int x = 1; x < 13; x++) {
             for (int i = 1; i < 13; i++) {
-                System.out.println(x * i);
+                System.out.print((x * i) + " ");
             }
+            System.out.println();
         }
 
     }
