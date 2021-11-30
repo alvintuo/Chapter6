@@ -25,7 +25,6 @@ public class exercise65 {
                 box++;
             }
 
-
         }
 
         System.out.println("Two Six-Rolls happened: " + box + " times out of 1000 rolls!");
