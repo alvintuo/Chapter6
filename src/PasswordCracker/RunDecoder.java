@@ -17,6 +17,7 @@ public class RunDecoder {
         for (int i = 1; i <= secret.length(); i++) {
 
             char secretChar = secret.charAt(charIndex);
+            System.out.println("Digit " + (charIndex + 1) + " matched!");
             password += decoder.getMatch(secretChar);
             charIndex++;
 
