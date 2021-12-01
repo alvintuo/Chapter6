@@ -17,7 +17,7 @@ public class Decoder {
 
             String alphabet = "abcdefghijklmnopqrtstuvwxyz1234567890";
             Random rdm = new Random();
-            char randomChar = alphabet.charAt(rdm.nextInt(36));
+            char randomChar = alphabet.charAt(rdm.nextInt(37));
             char secretChar = sc.charAt(RunDecoder.charIndex);
 
             if (randomChar == secretChar) {
